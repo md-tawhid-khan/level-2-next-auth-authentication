@@ -11,7 +11,7 @@ type  TUserProps={
 }
 
 const Navbar = ({session}:{session:TUserProps | null}) => {
-  console.log(session)
+  // console.log(session)
   return (
     <div className="w-[90%] mx-auto flex items-center justify-between bg-white border-b py-4">
       <div className="flex items-center">
